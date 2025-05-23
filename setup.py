@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 
 setup(
     name="encrypt-volume",
@@ -16,4 +16,3 @@ setup(
     ],
     python_requires=">=3.6",
 )
-
