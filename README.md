@@ -1,6 +1,8 @@
 # SecureEncrypt
 
 ![Python Version](https://img.shields.io/badge/python-3.6%2B-blue)
+![Tests](https://github.com/FernandoZnga/CryptoVault-AES/actions/workflows/python-tests.yml/badge.svg)
+[![codecov](https://codecov.io/gh/FernandoZnga/CryptoVault-AES/branch/main/graph/badge.svg)](https://codecov.io/gh/FernandoZnga/CryptoVault-AES)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Security Status](https://img.shields.io/badge/security-AES--GCM-brightgreen)
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
