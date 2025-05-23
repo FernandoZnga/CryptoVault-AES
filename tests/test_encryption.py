@@ -1,4 +1,3 @@
-import sys
 from encrypt_volume import (
     prepare_encryption_key,
     derive_key_from_password,
@@ -7,6 +6,7 @@ from encrypt_volume import (
     strip_padding
 )
 import os
+import sys
 import pytest
 import tempfile
 import hashlib
