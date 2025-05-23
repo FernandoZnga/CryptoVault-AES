@@ -4,8 +4,8 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Security Status](https://img.shields.io/badge/security-AES--GCM-brightgreen)
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
-[![Code Quality](https://img.shields.io/badge/code--quality-A-brightgreen)](https://github.com)
-![Last Commit](https://img.shields.io/github/last-commit/yourusername/secure-encrypt?color=blue)
+[![Code Quality](https://img.shields.io/badge/code--quality-A-brightgreen)](https://github.com/FernandoZnga/CryptoVault-AES)
+![Last Commit](https://img.shields.io/github/last-commit/FernandoZnga/CryptoVault-AES?color=blue)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
 
 A secure file encryption and decryption tool using AES-GCM mode for authenticated encryption. This tool provides a simple command-line interface for encrypting and decrypting files with strong cryptographic security.
@@ -33,8 +33,8 @@ This project was developed as part of a Master's degree in Cybersecurity, specif
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/secure-encrypt.git
-cd secure-encrypt
+git clone https://github.com/FernandoZnga/CryptoVault-AES.git
+cd CryptoVault-AES
 ```
 
 2. Install the required dependencies:
