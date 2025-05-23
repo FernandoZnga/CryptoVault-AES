@@ -10,6 +10,10 @@
 
 A secure file encryption and decryption tool using AES-GCM mode for authenticated encryption. This tool provides a simple command-line interface for encrypting and decrypting files with strong cryptographic security.
 
+## Academic Context
+
+This project was developed as part of a Master's degree in Cybersecurity, specifically for the Applied Cryptography course ("Criptografía Aplicada"). It represents a component of the final project requirements, demonstrating practical application of cryptographic principles in secure software development.
+
 ## Features
 
 - **Secure Encryption**: Uses AES-GCM (Galois/Counter Mode) for both confidentiality and data integrity
