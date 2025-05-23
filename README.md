@@ -29,7 +29,12 @@ This project was developed as part of a Master's degree in Cybersecurity, specif
 ### Prerequisites
 
 - Python 3.6 or higher
-- pycryptodomex library
+- pycryptodomex library (core dependency)
+
+**For development:**
+- pytest (testing)
+- pytest-cov (test coverage)
+- flake8 (code linting)
 
 ### Steps
 
@@ -41,7 +46,11 @@ cd CryptoVault-AES
 
 2. Install the required dependencies:
 ```bash
+# For basic usage
 pip install pycryptodomex
+
+# For development (includes testing tools)
+pip install -r requirements.txt
 ```
 
 ## Usage
@@ -79,6 +88,48 @@ Decrypt the image:
 ```bash
 python encrypt_volume.py decrypt photo.encrypted photo_decrypted.jpg --key "secure_password_123"
 ```
+
+## Development Setup
+
+If you want to contribute to the project or run tests, follow these steps to set up your development environment:
+
+1. Clone the repository and create a virtual environment:
+```bash
+git clone https://github.com/FernandoZnga/CryptoVault-AES.git
+cd CryptoVault-AES
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
+
+2. Install all development dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the tests:
+```bash
+pytest
+```
+
+4. Generate coverage report:
+```bash
+pytest --cov=. --cov-report=term
+```
+
+5. Run linting:
+```bash
+flake8
+```
+
+### Continuous Integration
+
+This project uses GitHub Actions for continuous integration:
+
+- Tests are automatically run on multiple Python versions (3.8 - 3.12)
+- Code coverage is reported to Codecov
+- Linting checks are performed using flake8
+
+You can check the current build status at the top of this README.
 
 ## Security Considerations
 
